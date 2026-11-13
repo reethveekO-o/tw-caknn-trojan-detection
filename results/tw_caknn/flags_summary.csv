@@ -1,0 +1,6 @@
+method,TPR,TNR,Precision,Accuracy,F,Trojans found,false alarms
+CA kNN-50 hybrid (C n),84.77,98.55,66.97,98.44,70.38,220.0,141.0
+Testability only (C n),79.35,98.29,61.99,97.94,65.15,210.0,151.0
+Stacking LOF+CBLOF (C n),74.15,98.13,58.2,97.64,61.04,193.8,167.2
+TW-CA-kNN (C n),87.6,98.51,67.67,98.36,71.65,225.2,135.8
+TW-CA-kNN auto,89.98,99.22,87.17,99.15,85.09,252.8,37.1

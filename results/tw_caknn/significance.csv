@@ -1,0 +1,10 @@
+metric,comparison,wins,losses,ties,p
+AP,TW-CA-kNN vs CA kNN-50 hybrid,12,3,0,0.0043
+AP,TW-CA-kNN vs Testability only (h),12,2,1,0.0157
+AP,TW-CA-kNN vs Stacking LOF+CBLOF (Nie et al.),14,0,1,0.001
+Pn,TW-CA-kNN vs CA kNN-50 hybrid,14,1,0,0.0012
+Pn,TW-CA-kNN vs Testability only (h),12,2,1,0.0029
+Pn,TW-CA-kNN vs Stacking LOF+CBLOF (Nie et al.),13,1,1,0.0019
+F,TW-CA-kNN auto vs CA kNN-50 hybrid (C n),11,4,0,0.0067
+F,TW-CA-kNN auto vs Testability only (C n),14,1,0,0.0012
+F,TW-CA-kNN auto vs Stacking LOF+CBLOF (C n),14,1,0,0.0001
