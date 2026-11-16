@@ -94,6 +94,7 @@ flowchart TD
 ## Repository layout
 
 ```
+TW_CA_kNN50.ipynb             TW-CA-kNN only, ready for Colab (upload data/ and Run all)
 data/
   structural_features.csv     circuit, net, label, f0..f55
   testability_features.csv    circuit, net, label, CC0, CC1, CO, SC0, SC1, SO
@@ -115,6 +116,12 @@ results/
 ```
 
 ## Reproducing the results
+
+### Quickest: the notebook
+
+Open `TW_CA_kNN50.ipynb` in [Google Colab](https://colab.research.google.com) (File → Upload notebook) and choose Runtime → Run all. When asked, upload the four CSVs from `data/` (or one zip containing them). It runs TW-CA-kNN on all 15 circuits in about 1–2 minutes and prints a per-circuit results table and the summary (F 85.09, AP 92.70, P@n 90.14). Run locally, it finds `data/` automatically.
+
+### Scripts
 
 ```bash
 pip install -r requirements.txt
